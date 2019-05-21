@@ -17,6 +17,7 @@ app.layout = html.Div(style={'backgroundColor': colors['background']}, children=
         children='Hello Dash',
         style={
             'textAlign': 'center',
+            ## insert code here ##
         }
     ),
 
