@@ -40,7 +40,7 @@ app.layout = html.Div([
     dash.dependencies.Output('text-content', 'children'),
     [dash.dependencies.Input('map', 'hoverData')])
 def update_text(hoverData):
-    s = df['storenum'] == None] ## replace None with your solution ##
+    s = df[df['storenum'] == None] ## replace None with your solution ##
     return html.H3(
         'The {}, {} {} opened in {}'.format(
             s.iloc[0]['STRCITY'],
