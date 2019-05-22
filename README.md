@@ -6,3 +6,4 @@ A workshop on Dash
 
 - https://dash.plot.ly/
 - https://medium.com/@plotlygraphs/introducing-dash-5ecf7191b503
+- https://dash.plot.ly/gallery
